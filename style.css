@@ -1,0 +1,43 @@
+/* Header Stiyle */
+header{
+    background-color: black;
+}
+
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
+}
+
+h1{
+    font-size: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.arl{
+    margin-top: 100px;
+}
